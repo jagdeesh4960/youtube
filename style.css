@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+    
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#path{
+    height: 90%;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+
+#image{
+    height: 200px;
+    width: 170px;
+    background:red;
+    position: absolute;
+    left: 40%;
+    animation: chakkar 3s ease-in infinite normal ;
+}
+@keyframes  chakkar {
+    from{
+        transform: translate(0%) scale(1);
+    }
+    to{
+        transform: translate(100%,100%) scale(1.3);
+
+    }
+    
+}
